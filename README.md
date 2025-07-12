@@ -17,18 +17,17 @@ AutoMate is a full-stack web application built using **Flask**, **MySQL**, and *
 
 ## 📸 Screenshots
 
-### 🔐 Login Page
-![Login](./app/static/images/automate%20login.png)
+### 🔐 Login Page  
+![Login](screenshots/login.png)
 
-### 📝 Register Page
-![Register](./app/static/images/automate%20register.png)
+### 📝 Register Page  
+![Register](screenshots/register.png)
 
-### 📊 Dashboard – Your Vehicles
-![Dashboard](./app/static/images/automate%20dashbord.png)
+### 📊 Dashboard – Your Vehicles  
+![Dashboard](screenshots/dashboard.png)
 
-### 🛠️ Maintenance Record Management
-![Maintenance](./app/static/images/automate%20Maintenance.png)
-
+### 🛠️ Maintenance Record Management  
+![Maintenance](screenshots/maintenance.png)
 ---
 
 ## 🚀 Tech Stack

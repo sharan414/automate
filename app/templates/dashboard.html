@@ -1,0 +1,20 @@
+{% extends 'layout.html' %}
+{% block content %}
+  <h2 class="text-3xl font-bold mb-6 text-blue-700">🚗 Your Vehicles</h2>
+
+  <a href="/add-vehicle" class="mb-6 inline-block bg-green-600 text-white px-4 py-2 rounded-lg hover:bg-green-700">
+    ➕ Add Vehicle
+  </a>
+
+  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+    {% for vehicle in vehicles %}
+      <div class="bg-white rounded-2xl shadow-lg p-5 hover:shadow-xl transition">
+        <h3 class="text-xl font-semibold text-blue-700">{{ vehicle.name }}</h3>
+        <p class="text-gray-600">{{ vehicle.model }} – {{ vehicle.year }}</p>
+        <a href="/maintenance/{{ vehicle.id }}" class="mt-4 inline-block text-sm text-blue-500 hover:underline">
+          🔧 View Maintenance
+        </a>
+      </div>
+    {% endfor %}
+  </div>
+{% endblock %}
